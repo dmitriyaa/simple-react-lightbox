@@ -57,7 +57,7 @@ const SRLLightboxGallery = ({
   // The first element will be the one that is clicked
   const [currentElement, setCurrentElement] = useState(selectedElement)
   // Let's set a state for the "autoplay" option
-  const [autoplay, setAutoplay] = useState(false)
+  const [autoplay, setAutoplay] = useState(true)
   // Let's set a state for the "panzoom" option
   const [panzoomEnabled, setPanzoomEnabled] = useState(false)
 
